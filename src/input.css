@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.customBtn {
+    @apply px-4;
+    @apply py-3;
+    @apply bg-red-800;
+    @apply shadow-md;
+    @apply text-white;
+    @apply font-bold;
+    @apply rounded-md;
+    @apply w-32;
+    @apply flex;
+    @apply transition;
+    @apply justify-center
+}
+
+.customBtn:hover {
+    @apply bg-white;
+    @apply text-antilope-500;
+    @apply -translate-y-1;
+    @apply transition-all;
+    @apply ease-out;
+    @apply duration-300;
+
+    
+
+}
